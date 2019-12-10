@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/ico" href="https://img.pngio.com/weather-png-hd-weather-png-transparent-480_480.png" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="search-area">
+            <input class="city-search" id="city-search" type="text" placeholder="Add city name">
+            <input class="submit" id="submit" type="submit" name="submit" onclick="submit()" value="Go">
+        </div>
+        <div class="city-div">
+            <h1 class="city" id="city">Something went wrong..</h1>
+        </div>
+        <div class="icon-div">
+            <h1 id="main" class="main"></h1>
+            <img class="icon" id="icon">
+        </div>
+        <div class="weather-main">
+            <h1 class="temperature-t" id="temperature"></h1>
+        </div>
+        <hr>
+        <div class="others">
+            <div class="first">
+                <h5>Desc</h5>
+                <h5 class="description il" id="description"></h5>
+            </div>
+            <div class="second">
+                <h5>Wind</h5>
+                <h5 class="wind-speed il" id="wind-speed"></h5>
+            </div>
+            <div class="third">
+                <h5>Humidity</h5>
+                <h5 class="humidity il" id="humidity"></h5>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

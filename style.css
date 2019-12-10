@@ -1,0 +1,107 @@
+body {
+    background: #12bbcd;
+    background-size: cover;
+    padding-top: 50px;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 20px;
+}
+
+*:focus {
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 280px;
+    height: 530px;
+    display: block;
+    background-image: url(https://media1.giphy.com/media/5PhRWWyHVy3goI9A0T/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2)
+}
+
+.city-search {
+    height: 23px;
+    width: 94%;
+    background: rgba(255, 255, 255, 0.3);
+    color: #2e2e2e;
+    margin-left: 1%;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+}
+
+.submit {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    margin-top: 14px;
+    margin-left: -40px;
+    background: #12bbcd;
+    cursor: pointer;
+    color: white;
+    border-radius: 10%;
+    border: none;
+}
+
+.city {
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+    font-weight: 300;
+}
+
+.main {
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 400;
+
+    color: white;
+    margin-top: -20px;
+}
+
+.temperature-t {
+    text-align: center;
+    font-size: 9vh;
+    font-weight: 300;
+
+    color: white;
+    margin-top: 0px;
+}
+
+.others {
+    display: flex;
+    margin: auto;
+}
+
+.first,
+.second,
+.third {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    line-height: 0;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icon {
+    margin-top: 80px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+.il {
+    line-height: normal;
+}
