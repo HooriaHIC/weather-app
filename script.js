@@ -6,6 +6,9 @@ let search = document.getElementById("city-search").value;
 let icon = document.getElementById("icon");
 let main = document.getElementById("main");
 let humidity = document.getElementById("humidity");
+let minimum = document.getElementById("minimum");
+let maximum = document.getElementById("maximum");
+let feel = document.getElementById("feels-like");
 
 function submit() {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + document.getElementById("city-search").value + '&APPID=927083a3ae2c111b10ef3fd5bf87f418', { mode: 'cors' })
@@ -20,7 +23,10 @@ function submit() {
             main.innerHTML = response.weather[0].main
             humidity.innerHTML = response.main.humidity + "%"
             icon.src = ("https://openweathermap.org/img/w/") + response.weather[0].icon + '.png'
-            wind.innerHTML = response.wind.speed
+            wind.innerHTML = response.wind.speed + " " + 'Kmh'
+            minimum.innerHTML = Math.floor(response.main.temp_min - 273.15) + '°C';
+            maximum.innerHTML = Math.floor(response.main.temp_max - 273.15) + '°C';
+            feel.innerHTML = Math.floor(response.main.feels_like - 273.15) + '°C';
 
 
 

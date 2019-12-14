@@ -1,10 +1,16 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    background: #12bbcd;
-    background-size: cover;
+    background: linear-gradient(gainsboro, white, ghostwhite);
     padding-top: 50px;
     font-family: 'Comfortaa', cursive;
     padding-bottom: 20px;
 }
+
+
 
 *:focus {
     border: none;
@@ -20,7 +26,7 @@ body {
     background-position: center;
     background-size: cover;
     margin: auto;
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.4)
 }
 
 .city-search {
@@ -41,9 +47,9 @@ body {
     height: 25px;
     margin-top: 14px;
     margin-left: -40px;
-    background: #12bbcd;
+    background: white;
     cursor: pointer;
-    color: white;
+    color: black;
     border-radius: 10%;
     border: none;
 }
@@ -86,6 +92,26 @@ body {
     color: white;
     line-height: 0;
     width: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.others2 {
+    display: flex;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.forth,
+.fifth,
+.sixth {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    line-height: 0;
+    width: 135px;
     display: flex;
     flex-direction: column;
 }
