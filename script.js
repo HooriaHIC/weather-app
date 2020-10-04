@@ -34,13 +34,13 @@ function submit() {
                 document.getElementById("container").style.backgroundImage = "url(https://media1.giphy.com/media/5PhRWWyHVy3goI9A0T/giphy.gif)";
 
             } else if (response.weather[0].description == "few clouds") {
-                document.getElementById("container").style.backgroundImage = "url(https://media.giphy.com/media/67uxmHhIF3uh6Ph8ew/giphy.gif)";
+                document.getElementById("container").style.backgroundImage = "url(https://photo-cdn.icons8.com/assets/previews/719/f52db576-41d8-4851-821d-cb443055099e1x.jpg)";
 
             } else if (response.weather[0].description == "scattered clouds") {
-                document.getElementById("container").style.backgroundImage = "url(https://media.giphy.com/media/5HK4TiiBeLSZq/giphy.gif)";
+                document.getElementById("container").style.backgroundImage = "url(https://res.cloudinary.com/malaika/image/upload/v1601819788/scattered-clouds.jpg)";
 
             } else if (response.weather[0].description == "broken clouds") {
-                document.getElementById("container").style.backgroundImage = "url(https://media.giphy.com/media/67uxmHhIF3uh6Ph8ew/giphy.gif)";
+                document.getElementById("container").style.backgroundImage = "url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ba52bbb6-d760-4478-b826-f3e2298dcbcc/d8ixdlv-9809d1d7-08ee-4436-b39f-d75cf7a5c9e5.jpg/v1/fill/w_1024,h_768,q_75,strp/broken_clouds_by_leo_6tos_d8ixdlv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03NjgiLCJwYXRoIjoiXC9mXC9iYTUyYmJiNi1kNzYwLTQ0NzgtYjgyNi1mM2UyMjk4ZGNiY2NcL2Q4aXhkbHYtOTgwOWQxZDctMDhlZS00NDM2LWIzOWYtZDc1Y2Y3YTVjOWU1LmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZHmIN6dLxzQm7ad_1EeSURiCksPiS4EOeGsfkh_KzJU)";
 
             } else if (response.weather[0].description == "overcast clouds") {
                 document.getElementById("container").style.backgroundImage = "url(https://images.wallpaperscraft.com/image/clouds_sky_overcast_124252_800x1420.jpg)";
@@ -58,7 +58,7 @@ function submit() {
                 document.getElementById("container").style.backgroundImage = "linear-gradient(rgba(0,0,0,0.5), transparent),url(https://cdn.images.express.co.uk/img/dynamic/153/590x/secondary/UK-weather-1362975.jpg?r=1534891019826)";
 
             } else if (response.weather[0].description == "fog") {
-                document.getElementById("container").style.backgroundImage = "url(https://media.giphy.com/media/McDhCoTyRyLiE/giphy.gif)";
+                document.getElementById("container").style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/TreesInTheFog.jpg/1200px-TreesInTheFog.jpg)";
 
             } else if (response.weather[0].description == "shower rain") {
                 document.getElementById("container").style.backgroundImage = "url(https://media.giphy.com/media/NMlmbDwu9eeg8/giphy.gif)";
@@ -69,7 +69,7 @@ function submit() {
                 document.getElementById("container").style.backgroundImage = "url(https://i2.wp.com/www.somethingsbrewing.com/wp-content/uploads/2012/01/smoke.jpg)";
 
             } else if (response.weather[0].description == "rain") {
-                document.getElementById("container").style.backgroundImage = "url(https://media.giphy.com/media/5torEEM8QnR95Cqg11/giphy.gif)";
+                document.getElementById("container").style.backgroundImage = "url(https://www.myjewishlearning.com/wp-content/uploads/2008/05/rain-israel-1597x900.jpg)";
             }
             else if (response.weather[0].description == "moderate rain") {
                 document.getElementById("container").style.backgroundImage = "url(https://media.giphy.com/media/5torEEM8QnR95Cqg11/giphy.gif)";
